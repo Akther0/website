@@ -1,0 +1,318 @@
+* {
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-color: #55C0E8;
+}
+
+nav {
+width: 100%;
+height: 100%;
+background-color:white;
+}
+
+
+ul {
+  margin-left: 60px;
+}
+
+
+ul li {
+list-style:none;
+display: inline-block;
+cursor: pointer;
+line-height: 100px;
+}
+
+ul li a {
+display: block;
+text-decoration: none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+padding: 0px 20px;
+text-align: center;
+}
+
+
+
+ul li a:hover {
+color: red;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+width: 16%;
+background: #eaedf3;
+position: absolute;
+z-index: 999;
+display: none;
+}
+
+ul li:hover ul.dropdown {
+display: block;
+}
+
+
+.Img1 {
+position: absolute;
+left: -5%;
+}
+
+.Img2 {
+  transform: scaleX(-1);
+  position: absolute;
+  left: 35%;
+}
+
+.Img3 {
+position: absolute;
+ left: 65%;
+}
+
+.text{
+max-width: 500px;
+color: black;
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: left;
+font-size: 30px;
+}
+
+
+
+.text1 {
+  max-width: 400px;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: translate(
+    -50%,-50% );
+  font-size: 15px;
+  text-align: left;
+  padding: 30px;
+}
+
+.text2 {
+  max-width: 400px;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: translate(
+    -50%,-50% );
+  font-size: 15px;
+  text-align: left;
+  padding: 30px;
+}
+
+.text3 {
+  max-width: 400px;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  transform: translate(
+   -50%,-50% );
+  font-size: 15px;
+  text-align: left;
+  padding: 30px;
+}
+
+
+.box .text1 {
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+  top: 130%;
+  left: 15%;
+  background:rgb(249, 248, 248);
+  align-items: left;
+  justify-content: center;
+  text-align: left; 
+  border-radius: 10px;
+}
+
+.box2 .text2{
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+  top: 130%;
+  left: 50%;
+  background:rgb(249, 248, 248);
+  align-items: left;
+  justify-content: center;
+  text-align: left; 
+  border-radius: 10px;
+}
+
+.box3 .text3 {
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+  top: 130%;
+  left: 85%;
+  background:rgb(249, 248, 248);
+  align-items: left;
+  justify-content: center;
+  text-align: left; 
+  border-radius: 10px;
+}
+
+
+*{
+  margin: 0;
+  padding: 0%;
+  font-family:'poppins', sans-serif;
+}
+
+.tea {
+max-width: 400px;
+color: #0d0d0d;
+position: absolute;
+top: 15%;
+left: 65%;
+transform: translate(-50%,-50%);
+text-align: left;
+font-size: 25px; 
+}
+
+
+
+
+.Img4 {
+position: absolute;
+left: 5%;
+top: -5%;
+
+}
+
+
+.par {
+  position: absolute;
+  text-align: left;
+  left: 35%;
+  top: 15%;
+  padding:5%;
+  margin: 10px;
+
+  
+}
+
+.Img5 {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+}
+
+.tea1 {
+max-width: 400px;
+color: #0d0d0d;
+position: absolute;
+top: 125%;
+left: -20%;
+transform: translate(-50%,-50%);
+text-align: left;
+font-size: 25px;
+text-indent: -20%;
+}
+
+.par1  {
+  position: absolute;
+  text-align: left;
+  left: -203%;
+  top: 27%;
+  padding:15%;
+  margin: 10px;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0%;
+  font-family:'poppins', sans-serif;
+}
+
+
+
+.title {
+  max-width: 400px;
+  color: darkred;
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+  font-size: 25px; 
+  text-indent: -95%;
+  }
+
+.title1 {
+max-width: 400px;
+position: absolute;
+top: 95%;
+left: 10%;
+font-size: 25px;
+color: crimson;
+}
+
+.Img7 {
+  position: absolute;
+  left: 60%;
+  top: 80%;
+}
+
+
+.button {
+  position: absolute;
+  top: 180%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+
+}
+
+.line {
+  position: absolute; 
+  top: 190%; 
+  left: 20%; 
+  transform: translate(-50%,-50%);
+
+}
+
+.bottom { 
+  position: absolute; 
+  top: 200%; 
+  left: 5%; 
+  
+}
+
+.par2 {
+  position: absolute;
+  text-align: left;
+  left: 35%;
+  top: 15%;
+  padding:5%;
+  margin: 10px;
+}
+
+.par3 {
+  position: absolute;
+  text-align: left;
+  left: -13%;
+  top: 85%;
+  padding:15%;
+  margin: 10px;
+
+
+
+}
